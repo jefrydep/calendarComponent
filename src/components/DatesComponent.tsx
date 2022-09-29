@@ -34,7 +34,7 @@ const DatesComponent = () => {
   return <div className=" ">
     <div className=" mt-5 grid gap-2 grid-cols-7 grid-rows-7">
 
-    {dates.map(dates =><div className="mt-5 mb-2"> {dates}</div>)}
+    {dates.map(dates =><div className="mt-5 mb-2 text-center"> {dates}</div>)}
 
     </div>
      </div>;
