@@ -18,8 +18,8 @@ const monts: string[] = [
 
 const CalendarApp = () => {
   return (
-    <div className="container sm bg-slate-200">
-      <select className="" name="select" id="">
+    <div className="container  bg-slate-50">
+      <select className="mt-7 mb-7 w-2/6" name="select" id="">
         {monts.map((months) => (
           <option>{months}</option>
         ))}
