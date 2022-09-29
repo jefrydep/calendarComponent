@@ -31,9 +31,10 @@ let dates: string[] = [
   "31",
 ];
 const DatesComponent = () => {
-  return <div className="grid  ">
-    <div className=" ">
-    {dates.map(dates =>dates)}
+  return <div className=" ">
+    <div className="grid gap-2 grid-cols-7 grid-rows-7">
+
+    {dates.map(dates =><div className=" "> {dates}</div>)}
 
     </div>
      </div>;
