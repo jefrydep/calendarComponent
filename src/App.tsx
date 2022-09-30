@@ -1,11 +1,12 @@
 import './App.css'
-import CalendarApp from './components/CalendarApp'
+import CalendarApp from './components/calendarComponent/CalendarApp'
+import { CountriesApp } from './components/countriesComponent/CountriesApp'
 
 function App() {
 
   return (
     <>
-       <CalendarApp/>
+      <CountriesApp/>
     </>
   )
 }
