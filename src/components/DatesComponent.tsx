@@ -31,13 +31,12 @@ let dates: string[] = [
   "31",
 ];
 const DatesComponent = () => {
-  return <div className=" ">
-    <div className=" mt-5 grid gap-2 grid-cols-7 grid-rows-7">
+  return <div className=" ">    <div className=" mt-5 grid  grid-cols-7 grid-rows-7">
 
-    {dates.map(dates =><div className="mt-5 mb-2 text-center"> {dates}</div>)}
+    {dates.map(dates =><div className=" px-2 py-2  text-center font-medium hover:bg-primary-color-gradient cursor-pointer" key={dates}> {dates}</div>)}
 
     </div>
-     </div>;
+     </div>
 };
 
 export default DatesComponent;

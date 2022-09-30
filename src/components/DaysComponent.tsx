@@ -1,15 +1,14 @@
-const days: string[] = ["L", "M", "M", "J", "V", "S", "D"];
 
 
 
-export const DaysComponent = () => {
+export const DaysComponent = ({days}:any) => {
   return (
-    <div className="">
-        <div className="content-center text-sky-900 text-2xl bg-primary-color  grid grid-cols-7 grid-rows-7 h-20 ">
-         {days.map(day => <div className="text-center ">{day}</div>)}
+    <>
+        <div className="content-center font-normal text-primary-color  bg-primary-color-gradient  grid grid-cols-7 grid-rows-7 h-9 ">
+         {days.map((day:any,index:any) => <div   className="text-center font-semibold" key={index}>{day}</div>)}
 
         </div>
 
-    </div>
+    </>
   )
 }
