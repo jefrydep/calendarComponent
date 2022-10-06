@@ -8269,7 +8269,7 @@
     },
     {
         "ubigeo": "070101",
-        "coddpto": "07",
+        "nomdpto":"CALLAO",
         "codprov": "01",
         "coddist": "01",
         "nombre": "CALLAO",
@@ -8281,7 +8281,7 @@
     },
     {
         "ubigeo": "070102",
-        "coddpto": "07",
+        "nomdpto":"CALLAO",
         "codprov": "01",
         "coddist": "02",
         "nombre": "BELLAVISTA",
@@ -8293,7 +8293,7 @@
     },
     {
         "ubigeo": "070103",
-        "coddpto": "07",
+        "nomdpto":"CALLAO",
         "codprov": "01",
         "coddist": "03",
         "nombre": "CARMEN DE LA LEGUA REYNOSO",
@@ -8305,7 +8305,7 @@
     },
     {
         "ubigeo": "070104",
-        "coddpto": "07",
+        "nomdpto":"CALLAO",
         "codprov": "01",
         "coddist": "04",
         "nombre": "LA PERLA",
@@ -8317,7 +8317,7 @@
     },
     {
         "ubigeo": "070105",
-        "coddpto": "07",
+        "nomdpto":"CALLAO",
         "codprov": "01",
         "coddist": "05",
         "nombre": "LA PUNTA",
@@ -8329,7 +8329,7 @@
     },
     {
         "ubigeo": "070106",
-        "coddpto": "07",
+        "nomdpto":"CALLAO",
         "codprov": "01",
         "coddist": "06",
         "nombre": "VENTANILLA",
@@ -8341,7 +8341,7 @@
     },
     {
         "ubigeo": "070107",
-        "coddpto": "07",
+        "nomdpto":"CALLAO",
         "codprov": "01",
         "coddist": "07",
         "nombre": "MI PERÚ",
@@ -10897,7 +10897,7 @@
     },
     {
         "ubigeo": "100101",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "01",
         "coddist": "01",
         "nombre": "HUANUCO",
@@ -10909,7 +10909,7 @@
     },
     {
         "ubigeo": "100102",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "01",
         "coddist": "02",
         "nombre": "AMARILIS",
@@ -10921,7 +10921,7 @@
     },
     {
         "ubigeo": "100103",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "01",
         "coddist": "03",
         "nombre": "CHINCHAO",
@@ -10933,7 +10933,7 @@
     },
     {
         "ubigeo": "100104",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "01",
         "coddist": "04",
         "nombre": "CHURUBAMBA",
@@ -10945,7 +10945,7 @@
     },
     {
         "ubigeo": "100105",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "01",
         "coddist": "05",
         "nombre": "MARGOS",
@@ -10957,7 +10957,7 @@
     },
     {
         "ubigeo": "100106",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "01",
         "coddist": "06",
         "nombre": "QUISQUI",
@@ -10969,7 +10969,7 @@
     },
     {
         "ubigeo": "100107",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "01",
         "coddist": "07",
         "nombre": "SAN FRANCISCO DE CAYRAN",
@@ -10981,7 +10981,7 @@
     },
     {
         "ubigeo": "100108",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "01",
         "coddist": "08",
         "nombre": "SAN PEDRO DE CHAULAN",
@@ -10993,7 +10993,7 @@
     },
     {
         "ubigeo": "100109",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "01",
         "coddist": "09",
         "nombre": "SANTA MARIA DEL VALLE",
@@ -11005,7 +11005,7 @@
     },
     {
         "ubigeo": "100110",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "01",
         "coddist": "10",
         "nombre": "YARUMAYO",
@@ -11017,7 +11017,7 @@
     },
     {
         "ubigeo": "100111",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "01",
         "coddist": "11",
         "nombre": "PILLCO MARCA",
@@ -11029,7 +11029,7 @@
     },
     {
         "ubigeo": "100112",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "01",
         "coddist": "12",
         "nombre": "YACUS",
@@ -11041,7 +11041,7 @@
     },
     {
         "ubigeo": "100113",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "01",
         "coddist": "13",
         "nombre": "SAN PABLO DE PILLAO",
@@ -11053,7 +11053,7 @@
     },
     {
         "ubigeo": "100201",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "02",
         "coddist": "01",
         "nombre": "AMBO",
@@ -11065,7 +11065,7 @@
     },
     {
         "ubigeo": "100202",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "02",
         "coddist": "02",
         "nombre": "CAYNA",
@@ -11077,7 +11077,7 @@
     },
     {
         "ubigeo": "100203",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "02",
         "coddist": "03",
         "nombre": "COLPAS",
@@ -11089,7 +11089,7 @@
     },
     {
         "ubigeo": "100204",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "02",
         "coddist": "04",
         "nombre": "CONCHAMARCA",
@@ -11101,7 +11101,7 @@
     },
     {
         "ubigeo": "100205",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "02",
         "coddist": "05",
         "nombre": "HUACAR",
@@ -11113,7 +11113,7 @@
     },
     {
         "ubigeo": "100206",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "02",
         "coddist": "06",
         "nombre": "SAN FRANCISCO",
@@ -11125,7 +11125,7 @@
     },
     {
         "ubigeo": "100207",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "02",
         "coddist": "07",
         "nombre": "SAN RAFAEL",
@@ -11137,7 +11137,7 @@
     },
     {
         "ubigeo": "100208",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "02",
         "coddist": "08",
         "nombre": "TOMAY KICHWA",
@@ -11149,7 +11149,7 @@
     },
     {
         "ubigeo": "100301",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "03",
         "coddist": "01",
         "nombre": "LA UNION",
@@ -11161,7 +11161,7 @@
     },
     {
         "ubigeo": "100307",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "03",
         "coddist": "07",
         "nombre": "CHUQUIS",
@@ -11173,7 +11173,7 @@
     },
     {
         "ubigeo": "100311",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "03",
         "coddist": "11",
         "nombre": "MARIAS",
@@ -11185,7 +11185,7 @@
     },
     {
         "ubigeo": "100313",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "03",
         "coddist": "13",
         "nombre": "PACHAS",
@@ -11197,7 +11197,7 @@
     },
     {
         "ubigeo": "100316",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "03",
         "coddist": "16",
         "nombre": "QUIVILLA",
@@ -11209,7 +11209,7 @@
     },
     {
         "ubigeo": "100317",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "03",
         "coddist": "17",
         "nombre": "RIPAN",
@@ -11221,7 +11221,7 @@
     },
     {
         "ubigeo": "100321",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "03",
         "coddist": "21",
         "nombre": "SHUNQUI",
@@ -11233,7 +11233,7 @@
     },
     {
         "ubigeo": "100322",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "03",
         "coddist": "22",
         "nombre": "SILLAPATA",
@@ -11245,7 +11245,7 @@
     },
     {
         "ubigeo": "100323",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "03",
         "coddist": "23",
         "nombre": "YANAS",
@@ -11257,7 +11257,7 @@
     },
     {
         "ubigeo": "100401",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "04",
         "coddist": "01",
         "nombre": "HUACAYBAMBA",
@@ -11269,7 +11269,7 @@
     },
     {
         "ubigeo": "100402",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "04",
         "coddist": "02",
         "nombre": "CANCHABAMBA",
@@ -11281,7 +11281,7 @@
     },
     {
         "ubigeo": "100403",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "04",
         "coddist": "03",
         "nombre": "COCHABAMBA",
@@ -11293,7 +11293,7 @@
     },
     {
         "ubigeo": "100404",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "04",
         "coddist": "04",
         "nombre": "PINRA",
@@ -11305,7 +11305,7 @@
     },
     {
         "ubigeo": "100501",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "05",
         "coddist": "01",
         "nombre": "LLATA",
@@ -11317,7 +11317,7 @@
     },
     {
         "ubigeo": "100502",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "05",
         "coddist": "02",
         "nombre": "ARANCAY",
@@ -11329,7 +11329,7 @@
     },
     {
         "ubigeo": "100503",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "05",
         "coddist": "03",
         "nombre": "CHAVIN DE PARIARCA",
@@ -11341,7 +11341,7 @@
     },
     {
         "ubigeo": "100504",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "05",
         "coddist": "04",
         "nombre": "JACAS GRANDE",
@@ -11353,7 +11353,7 @@
     },
     {
         "ubigeo": "100505",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "05",
         "coddist": "05",
         "nombre": "JIRCAN",
@@ -11365,7 +11365,7 @@
     },
     {
         "ubigeo": "100506",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "05",
         "coddist": "06",
         "nombre": "MIRAFLORES",
@@ -11377,7 +11377,7 @@
     },
     {
         "ubigeo": "100507",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "05",
         "coddist": "07",
         "nombre": "MONZON",
@@ -11389,7 +11389,7 @@
     },
     {
         "ubigeo": "100508",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "05",
         "coddist": "08",
         "nombre": "PUNCHAO",
@@ -11401,7 +11401,7 @@
     },
     {
         "ubigeo": "100509",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "05",
         "coddist": "09",
         "nombre": "PUÑOS",
@@ -11413,7 +11413,7 @@
     },
     {
         "ubigeo": "100510",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "05",
         "coddist": "10",
         "nombre": "SINGA",
@@ -11425,7 +11425,7 @@
     },
     {
         "ubigeo": "100511",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "05",
         "coddist": "11",
         "nombre": "TANTAMAYO",
@@ -11437,7 +11437,7 @@
     },
     {
         "ubigeo": "100601",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "06",
         "coddist": "01",
         "nombre": "RUPA-RUPA",
@@ -11449,7 +11449,7 @@
     },
     {
         "ubigeo": "100602",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "06",
         "coddist": "02",
         "nombre": "DANIEL ALOMIA ROBLES",
@@ -11461,7 +11461,7 @@
     },
     {
         "ubigeo": "100603",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "06",
         "coddist": "03",
         "nombre": "HERMILIO VALDIZAN",
@@ -11473,7 +11473,7 @@
     },
     {
         "ubigeo": "100604",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "06",
         "coddist": "04",
         "nombre": "JOSE CRESPO Y CASTILLO",
@@ -11485,7 +11485,7 @@
     },
     {
         "ubigeo": "100605",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "06",
         "coddist": "05",
         "nombre": "LUYANDO",
@@ -11497,7 +11497,7 @@
     },
     {
         "ubigeo": "100606",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "06",
         "coddist": "06",
         "nombre": "MARIANO DAMASO BERAUN",
@@ -11509,7 +11509,7 @@
     },
     {
         "ubigeo": "100607",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "06",
         "coddist": "07",
         "nombre": "PUCAYACU",
@@ -11521,7 +11521,7 @@
     },
     {
         "ubigeo": "100608",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "06",
         "coddist": "08",
         "nombre": "CASTILLO GRANDE",
@@ -11533,7 +11533,7 @@
     },
     {
         "ubigeo": "100609",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "06",
         "coddist": "09",
         "nombre": "PUEBLO NUEVO",
@@ -11545,7 +11545,7 @@
     },
     {
         "ubigeo": "100610",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "06",
         "coddist": "10",
         "nombre": "SANTO DOMINGO DE ANDA",
@@ -11557,7 +11557,7 @@
     },
     {
         "ubigeo": "100701",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "07",
         "coddist": "01",
         "nombre": "HUACRACHUCO",
@@ -11569,7 +11569,7 @@
     },
     {
         "ubigeo": "100702",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "07",
         "coddist": "02",
         "nombre": "CHOLON",
@@ -11581,7 +11581,7 @@
     },
     {
         "ubigeo": "100703",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "07",
         "coddist": "03",
         "nombre": "SAN BUENAVENTURA",
@@ -11593,7 +11593,7 @@
     },
     {
         "ubigeo": "100704",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "07",
         "coddist": "04",
         "nombre": "LA MORADA",
@@ -11605,7 +11605,7 @@
     },
     {
         "ubigeo": "100705",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "07",
         "coddist": "05",
         "nombre": "SANTA ROSA DE ALTO YANAJANCA",
@@ -11617,7 +11617,7 @@
     },
     {
         "ubigeo": "100801",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "08",
         "coddist": "01",
         "nombre": "PANAO",
@@ -11629,7 +11629,7 @@
     },
     {
         "ubigeo": "100802",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "08",
         "coddist": "02",
         "nombre": "CHAGLLA",
@@ -11641,7 +11641,7 @@
     },
     {
         "ubigeo": "100803",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "08",
         "coddist": "03",
         "nombre": "MOLINO",
@@ -11653,7 +11653,7 @@
     },
     {
         "ubigeo": "100804",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "08",
         "coddist": "04",
         "nombre": "UMARI",
@@ -11665,7 +11665,7 @@
     },
     {
         "ubigeo": "100901",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "09",
         "coddist": "01",
         "nombre": "PUERTO INCA",
@@ -11677,7 +11677,7 @@
     },
     {
         "ubigeo": "100902",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "09",
         "coddist": "02",
         "nombre": "CODO DEL POZUZO",
@@ -11689,7 +11689,7 @@
     },
     {
         "ubigeo": "100903",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "09",
         "coddist": "03",
         "nombre": "HONORIA",
@@ -11701,7 +11701,7 @@
     },
     {
         "ubigeo": "100904",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "09",
         "coddist": "04",
         "nombre": "TOURNAVISTA",
@@ -11713,7 +11713,7 @@
     },
     {
         "ubigeo": "100905",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "09",
         "coddist": "05",
         "nombre": "YUYAPICHIS",
@@ -11725,7 +11725,7 @@
     },
     {
         "ubigeo": "101001",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "10",
         "coddist": "01",
         "nombre": "JESUS",
@@ -11737,7 +11737,7 @@
     },
     {
         "ubigeo": "101002",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "10",
         "coddist": "02",
         "nombre": "BAÑOS",
@@ -11749,7 +11749,7 @@
     },
     {
         "ubigeo": "101003",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "10",
         "coddist": "03",
         "nombre": "JIVIA",
@@ -11761,7 +11761,7 @@
     },
     {
         "ubigeo": "101004",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "10",
         "coddist": "04",
         "nombre": "QUEROPALCA",
@@ -11773,7 +11773,7 @@
     },
     {
         "ubigeo": "101005",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "10",
         "coddist": "05",
         "nombre": "RONDOS",
@@ -11785,7 +11785,7 @@
     },
     {
         "ubigeo": "101006",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "10",
         "coddist": "06",
         "nombre": "SAN FRANCISCO DE ASIS",
@@ -11797,7 +11797,7 @@
     },
     {
         "ubigeo": "101007",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "10",
         "coddist": "07",
         "nombre": "SAN MIGUEL DE CAURI",
@@ -11809,7 +11809,7 @@
     },
     {
         "ubigeo": "101101",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "11",
         "coddist": "01",
         "nombre": "CHAVINILLO",
@@ -11821,7 +11821,7 @@
     },
     {
         "ubigeo": "101102",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "11",
         "coddist": "02",
         "nombre": "CAHUAC",
@@ -11833,7 +11833,7 @@
     },
     {
         "ubigeo": "101103",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "11",
         "coddist": "03",
         "nombre": "CHACABAMBA",
@@ -11845,7 +11845,7 @@
     },
     {
         "ubigeo": "101104",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "11",
         "coddist": "04",
         "nombre": "APARICIO POMARES",
@@ -11857,7 +11857,7 @@
     },
     {
         "ubigeo": "101105",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "11",
         "coddist": "05",
         "nombre": "JACAS CHICO",
@@ -11869,7 +11869,7 @@
     },
     {
         "ubigeo": "101106",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "11",
         "coddist": "06",
         "nombre": "OBAS",
@@ -11881,7 +11881,7 @@
     },
     {
         "ubigeo": "101107",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "11",
         "coddist": "07",
         "nombre": "PAMPAMARCA",
@@ -11893,7 +11893,7 @@
     },
     {
         "ubigeo": "101108",
-        "coddpto": "10",
+       "nomdpto":"HUANUCO",
         "codprov": "11",
         "coddist": "08",
         "nombre": "CHORAS",
@@ -14905,7 +14905,7 @@
     },
     {
         "ubigeo": "140101",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "01",
         "coddist": "01",
         "nombre": "CHICLAYO",
@@ -14917,7 +14917,7 @@
     },
     {
         "ubigeo": "140102",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "01",
         "coddist": "02",
         "nombre": "CHONGOYAPE",
@@ -14929,7 +14929,7 @@
     },
     {
         "ubigeo": "140103",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "01",
         "coddist": "03",
         "nombre": "ETEN",
@@ -14941,7 +14941,7 @@
     },
     {
         "ubigeo": "140104",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "01",
         "coddist": "04",
         "nombre": "ETEN PUERTO",
@@ -14953,7 +14953,7 @@
     },
     {
         "ubigeo": "140105",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "01",
         "coddist": "05",
         "nombre": "JOSE LEONARDO ORTIZ",
@@ -14965,7 +14965,7 @@
     },
     {
         "ubigeo": "140106",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "01",
         "coddist": "06",
         "nombre": "LA VICTORIA",
@@ -14977,7 +14977,7 @@
     },
     {
         "ubigeo": "140107",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "01",
         "coddist": "07",
         "nombre": "LAGUNAS",
@@ -14989,7 +14989,7 @@
     },
     {
         "ubigeo": "140108",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "01",
         "coddist": "08",
         "nombre": "MONSEFU",
@@ -15001,7 +15001,7 @@
     },
     {
         "ubigeo": "140109",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "01",
         "coddist": "09",
         "nombre": "NUEVA ARICA",
@@ -15013,7 +15013,7 @@
     },
     {
         "ubigeo": "140110",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "01",
         "coddist": "10",
         "nombre": "OYOTUN",
@@ -15025,7 +15025,7 @@
     },
     {
         "ubigeo": "140111",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "01",
         "coddist": "11",
         "nombre": "PICSI",
@@ -15037,7 +15037,7 @@
     },
     {
         "ubigeo": "140112",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "01",
         "coddist": "12",
         "nombre": "PIMENTEL",
@@ -15049,7 +15049,7 @@
     },
     {
         "ubigeo": "140113",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "01",
         "coddist": "13",
         "nombre": "REQUE",
@@ -15061,7 +15061,7 @@
     },
     {
         "ubigeo": "140114",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "01",
         "coddist": "14",
         "nombre": "SANTA ROSA",
@@ -15073,7 +15073,7 @@
     },
     {
         "ubigeo": "140115",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "01",
         "coddist": "15",
         "nombre": "SAÑA",
@@ -15085,7 +15085,7 @@
     },
     {
         "ubigeo": "140116",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "01",
         "coddist": "16",
         "nombre": "CAYALTI",
@@ -15097,7 +15097,7 @@
     },
     {
         "ubigeo": "140117",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "01",
         "coddist": "17",
         "nombre": "PATAPO",
@@ -15109,7 +15109,7 @@
     },
     {
         "ubigeo": "140118",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "01",
         "coddist": "18",
         "nombre": "POMALCA",
@@ -15121,7 +15121,7 @@
     },
     {
         "ubigeo": "140119",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "01",
         "coddist": "19",
         "nombre": "PUCALA",
@@ -15133,7 +15133,7 @@
     },
     {
         "ubigeo": "140120",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "01",
         "coddist": "20",
         "nombre": "TUMAN",
@@ -15145,7 +15145,7 @@
     },
     {
         "ubigeo": "140201",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "02",
         "coddist": "01",
         "nombre": "FERREÑAFE",
@@ -15157,7 +15157,7 @@
     },
     {
         "ubigeo": "140202",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "02",
         "coddist": "02",
         "nombre": "CAÑARIS",
@@ -15169,7 +15169,7 @@
     },
     {
         "ubigeo": "140203",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "02",
         "coddist": "03",
         "nombre": "INCAHUASI",
@@ -15181,7 +15181,7 @@
     },
     {
         "ubigeo": "140204",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "02",
         "coddist": "04",
         "nombre": "MANUEL ANTONIO MESONES MURO",
@@ -15193,7 +15193,7 @@
     },
     {
         "ubigeo": "140205",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "02",
         "coddist": "05",
         "nombre": "PITIPO",
@@ -15205,7 +15205,7 @@
     },
     {
         "ubigeo": "140206",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "02",
         "coddist": "06",
         "nombre": "PUEBLO NUEVO",
@@ -15217,7 +15217,7 @@
     },
     {
         "ubigeo": "140301",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "03",
         "coddist": "01",
         "nombre": "LAMBAYEQUE",
@@ -15229,7 +15229,7 @@
     },
     {
         "ubigeo": "140302",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "03",
         "coddist": "02",
         "nombre": "CHOCHOPE",
@@ -15241,7 +15241,7 @@
     },
     {
         "ubigeo": "140303",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "03",
         "coddist": "03",
         "nombre": "ILLIMO",
@@ -15253,7 +15253,7 @@
     },
     {
         "ubigeo": "140304",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "03",
         "coddist": "04",
         "nombre": "JAYANCA",
@@ -15265,7 +15265,7 @@
     },
     {
         "ubigeo": "140305",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "03",
         "coddist": "05",
         "nombre": "MOCHUMI",
@@ -15277,7 +15277,7 @@
     },
     {
         "ubigeo": "140306",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "03",
         "coddist": "06",
         "nombre": "MORROPE",
@@ -15289,7 +15289,7 @@
     },
     {
         "ubigeo": "140307",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "03",
         "coddist": "07",
         "nombre": "MOTUPE",
@@ -15301,7 +15301,7 @@
     },
     {
         "ubigeo": "140308",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "03",
         "coddist": "08",
         "nombre": "OLMOS",
@@ -15313,7 +15313,7 @@
     },
     {
         "ubigeo": "140309",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "03",
         "coddist": "09",
         "nombre": "PACORA",
@@ -15325,7 +15325,7 @@
     },
     {
         "ubigeo": "140310",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "03",
         "coddist": "10",
         "nombre": "SALAS",
@@ -15337,7 +15337,7 @@
     },
     {
         "ubigeo": "140311",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "03",
         "coddist": "11",
         "nombre": "SAN JOSE",
@@ -15349,7 +15349,7 @@
     },
     {
         "ubigeo": "140312",
-        "coddpto": "14",
+       "nomdpto":"LAMBAYEQUE",
         "codprov": "03",
         "coddist": "12",
         "nombre": "TUCUME",

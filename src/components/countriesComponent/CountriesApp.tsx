@@ -2,63 +2,44 @@
 import provinces from "../../data/countries_peru.json";
 import { useEffect, useState } from "react";
 // const URL = "https://ubigeo-pe.herokuapp.com/v4?coddpto=21";
+
+type depProps = { [key: string]: any }[];
 export const CountriesApp = () => {
-  const [selectedDepartament, setselectedDepartament] = useState('')
-  const onSearchDepartments = (e: any) => {
-    console.log(e.target.value);
-    setselectedDepartament(e.target.value)
+  const [departments, setDepartments] = useState<depProps | null>(provinces);
+  const [query, setQuery] = useState("");
+
+  
+  const codeDepartments = departments?.map((province) => {
+    return {
+      nombres: province.nomdpto,
+    };
+  });
+  console.log(codeDepartments);
+
+  const deleteRepeats = (arr: any) => {
+    const provincesMap = arr.map((prov: any) => {
+      return [prov.nombres, prov];
+    });
+    return [...new Map(provincesMap).values()];
   };
-  const allDepartments = provinces.filter(
-    (departaments) =>
-      departaments.coddist === "01" &&
-      departaments.codprov === "01" &&
-      departaments.tipo === "provincia"
-  );
 
-
-
-
-// const searchProvince = (provinceName :string)=>{
-
-//   const allProvinces = provinces.filter(
-//     (res) => res.tipo === "provincia" && res.nombre  === provinceName
-//   );
-//   return allProvinces;
-// }
-// console.log(searchProvince('PUNO'))
-
-const allProvinces = provinces.filter(
-  (res) =>res.coddpto ==='21' && res.tipo === "provincia"  
-);
-
-
-
-
-
-
-
-  console.log(allDepartments);
-
-  useEffect(() => {}, []);
+  // const value = deleteRepeats(codeDepartments);
+  // setDepartments(value);
+  // console.log(departments);
+  // const deps = () => {};
 
   return (
     <>
-      <h2>departamentos</h2>
-      
-      <select  onChange={onSearchDepartments}>
-        {allDepartments.map((deps) => (
-          <option>{deps.nombre}</option>
-        ))}
-      </select>
-      <br />
-      <br />
-      <hr />
-      <h2>provincias</h2>
-      <select name="provinces" id="">
-        {allProvinces.map((res) => (
-          <option>{res.nombre}</option>
-        ))}
-      </select>
+      <input
+        placeholder="Buscar departamento"
+        value={query}
+        type="text"
+        onChange={(event) => setQuery(event.target.value)}
+      />
+      {/* {departments.map(deps => <div>{deps.nombres}</div>)
+           
+
+          } */}
     </>
   );
 };
