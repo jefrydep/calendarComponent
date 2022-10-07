@@ -37,7 +37,7 @@ export const CountriesApp = () => {
     );
     return newProvinces;
   };
-  console.log(filterProvince("PASCO"));
+  console.log(filterProvince("LORETO"));
 
   //console.log(data);
   const onQuerySelected = (e: any) => {};
