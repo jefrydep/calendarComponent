@@ -1,32 +1,46 @@
 // import axios from "axios";
-import provinces from "../../data/countries_peru.json";
+import dataPeru from "../../data/countries_peru.json";
 import { useEffect, useState } from "react";
 // const URL = "https://ubigeo-pe.herokuapp.com/v4?coddpto=21";
 
 type depProps = { [key: string]: any }[];
+
 export const CountriesApp = () => {
-  const [departments, setDepartments] = useState<depProps | null>(provinces);
+  const [data, setData] = useState<depProps>(dataPeru);
+  const [departaments, setDepartaments] = useState<depProps | null>();
+  const [newDepartments, setNewDepartments] = useState<depProps | null>();
   const [query, setQuery] = useState("");
 
-  
-  const codeDepartments = departments?.map((province) => {
-    return {
-      nombres: province.nomdpto,
-    };
-  });
-  console.log(codeDepartments);
+  const filtingDepartmentsAndDelete = () => {
+    const filterDepartments = data.filter(
+      (departament) =>
+        departament.codprov === "01" && departament.coddist === "01"
+    );
 
-  const deleteRepeats = (arr: any) => {
-    const provincesMap = arr.map((prov: any) => {
-      return [prov.nombres, prov];
-    });
-    return [...new Map(provincesMap).values()];
+    const newDepartmentsList = filterDepartments.map((departaments, index) => ({
+      id: index,
+      label: departaments.nomdpto,
+    }));
+    setDepartaments(newDepartmentsList);
   };
 
-  // const value = deleteRepeats(codeDepartments);
-  // setDepartments(value);
-  // console.log(departments);
-  // const deps = () => {};
+  useEffect(() => {
+    console.log("Inicializando el UseEfec");
+    filtingDepartmentsAndDelete();
+    // setNewDepartments(data );
+  }, []);
+
+  const filterProvince = (departament: string) => {
+    const newProvinces = data.filter(
+      (province) =>
+        province.nomdpto === departament && province.tipo === "provincia"
+    );
+    return newProvinces;
+  };
+  console.log(filterProvince("PASCO"));
+
+  //console.log(data);
+  const onQuerySelected = (e: any) => {};
 
   return (
     <>
@@ -36,10 +50,9 @@ export const CountriesApp = () => {
         type="text"
         onChange={(event) => setQuery(event.target.value)}
       />
-      {/* {departments.map(deps => <div>{deps.nombres}</div>)
-           
-
-          } */}
+      {/* {newDepartments.map((newDeps) => (
+        <div>{newDeps.nombres}</div>
+      ))} */}
     </>
   );
 };
