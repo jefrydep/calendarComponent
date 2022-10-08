@@ -22,7 +22,7 @@ type optionsTypeData = { [key: string]: any }[];
 //   { label: "Casa" },
 // ];
 
-const DropDown = ({
+const ProvinceComponent = ({
   label,
   //   iconName,
   data,
@@ -136,4 +136,4 @@ filtingDepartmentsAndDelete()
   );
 };
 
-export default DropDown;
+export default ProvinceComponent;

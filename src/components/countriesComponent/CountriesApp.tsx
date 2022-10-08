@@ -1,6 +1,7 @@
 // import axios from "axios";
 import dataPeru from "../../data/countries_peru.json";
 import { useEffect, useState } from "react";
+import { motion } from "framer-motion"
 // const URL = "https://ubigeo-pe.herokuapp.com/v4?coddpto=21";
 
 type depProps = { [key: string]: any }[];
