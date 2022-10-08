@@ -8,9 +8,8 @@ type depProps = { [key: string]: any }[];
 export const CountriesApp = () => {
   const [data, setData] = useState<depProps>(dataPeru);
   const [departaments, setDepartaments] = useState<depProps | null>();
-  const [newDepartments, setNewDepartments] = useState<depProps | null>();
   const [query, setQuery] = useState("");
-
+  const [selectedVallue,setSelectedValue]= useState();
   const filtingDepartmentsAndDelete = () => {
     const filterDepartments = data.filter(
       (departament) =>
@@ -37,10 +36,11 @@ export const CountriesApp = () => {
     );
     return newProvinces;
   };
-  console.log(filterProvince("LORETO"));
+  console.log(filterProvince("LIMA"));
 
-  //console.log(data);
+  console.log(departaments);
   const onQuerySelected = (e: any) => {};
+  console.log(query)
 
   return (
     <>
@@ -50,9 +50,7 @@ export const CountriesApp = () => {
         type="text"
         onChange={(event) => setQuery(event.target.value)}
       />
-      {/* {newDepartments.map((newDeps) => (
-        <div>{newDeps.nombres}</div>
-      ))} */}
+      {departaments?.map(depts => <div key={depts.id}>{depts.label}</div>)}
     </>
   );
 };
