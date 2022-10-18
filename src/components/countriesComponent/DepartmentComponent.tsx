@@ -4,12 +4,17 @@ import { useEffect, useState } from "react";
 import type { InputHTMLAttributes } from "react";
 import { motion } from "framer-motion";
 // import { container } from "~/animations/framerAnimation";
+import {} from "../../utils/countries";
+import { useCountries } from "../../hooks/useCountries";
 
-interface DropDownProps extends InputHTMLAttributes<HTMLInputElement> {
+interface DepartmentComponentProps
+  extends InputHTMLAttributes<HTMLInputElement> {
   label?: string;
   //   iconName?: IconName;
   data: { [key: string]: any }[];
   dropable?: boolean;
+  // newValue:string;
+  // getValue: (value: string) => any;
 }
 type optionsType = string[];
 type optionsTypeData = { [key: string]: any }[];
@@ -22,53 +27,40 @@ type optionsTypeData = { [key: string]: any }[];
 //   { label: "Casa" },
 // ];
 
-const DropDown = ({
+const DepartmentComponent = ({
   label,
-  //   iconName,
+  // iconName,
+  // newValue,
   data,
   className,
   dropable,
   ...otherProps
-}: DropDownProps) => {
+}: DepartmentComponentProps) => {
   const [isActive, setIsActive] = useState<boolean>(false);
-  const [selected, setSelected] = useState("");
+  const [selected, setSelected] = useState('');
   const [filterData, setfilterData] = useState<optionsTypeData>([]);
   const [options, setOptions] = useState<optionsTypeData>(data);
+  console.log(selected);
+  console.log(data)
+  // console.log(newValue);
+  //  getValue(selected);
 
   const toggleChange = () => {
     setIsActive(!isActive);
   };
-  const filtingDepartmentsAndDelete = () => {
-    const filterDepartments = data.filter(
-      (departament) =>
-        departament.codprov === "01" && departament.coddist === "01"
-    );
-
-    const newDepartmentsList = filterDepartments.map((departaments, index) => ({
-      id: index,
-      label: departaments.nomdpto,
-    }));
-    setOptions(newDepartmentsList);
-  };
-
-  useEffect(() => {
-filtingDepartmentsAndDelete()
-  
-  }, [])
-  
-
+  // console.log(data);
   const toggleFilter = (e: React.ChangeEvent<HTMLInputElement>) => {
     const searchWord = e.target.value;
     searchWord.length == 0 ? setIsActive(false) : setIsActive(true);
-    console.log(searchWord);
     setSelected(searchWord);
+
     const filterWord = options.filter((value) =>
       value.label.toLowerCase().includes(searchWord.toLowerCase())
     );
     setfilterData(filterWord);
+
     filterWord.length == 0 && setIsActive(false);
   };
-  console.log(filterData);
   return (
     <div className="relative">
       {label && (
@@ -95,13 +87,13 @@ filtingDepartmentsAndDelete()
               className="h-full w-full scale-75"
             >
               {isActive ? (
-                <div>open</div>
+                <div>close</div>
               ) : (
                 // <Icon
                 //   iconName="CaretDown"
                 //   className=" fill-placeholder-color rotate-180"
                 // />
-                <div>close</div>
+                <div>open</div>
                 // <Icon
                 //   iconName="CaretDown"
                 //   className=" fill-placeholder-color "
@@ -136,4 +128,4 @@ filtingDepartmentsAndDelete()
   );
 };
 
-export default DropDown;
+export default DepartmentComponent;
