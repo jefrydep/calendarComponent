@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import type { InputHTMLAttributes } from "react";
 import { motion } from "framer-motion";
 // import { container } from "~/animations/framerAnimation";
-import {} from "../../utils/countries";
+// import {} from "../../utils/countries";
 import { useCountries } from "../../hooks/useCountries";
 import DepartmentComponent from "./DepartmentComponent";
 
@@ -14,6 +14,7 @@ interface DropDownProps extends InputHTMLAttributes<HTMLInputElement> {
   data: { [key: string]: any }[];
   dropable?: boolean;
   // getValue: (value: string) => any;
+  getSelected:(value:string)=> any;
 }
 type optionsType = string[];
 type optionsTypeData = { [key: string]: any }[];
@@ -29,7 +30,8 @@ type optionsTypeData = { [key: string]: any }[];
 const DropDown = ({
   label,
   // iconName,
-
+  getSelected,
+// getValue,
   data,
   className,
   dropable,
@@ -38,10 +40,12 @@ const DropDown = ({
   const [isActive, setIsActive] = useState<boolean>(false);
   const [selected, setSelected] = useState("");
   const [filterData, setfilterData] = useState<optionsTypeData>([]);
-  const [options, setOptions] = useState<optionsTypeData>(data);
-  const {filterDepartments,filterDistrit,filterProvince}=useCountries()
-  console.log(selected);
-  //  getValue(selected);
+  const [options, setOptions] = useState<optionsTypeData>([]);
+  getSelected(selected);
+  
+  useEffect(() => {
+    setOptions(data)
+  }, [data])
 
   const toggleChange = () => {
     setIsActive(!isActive);
@@ -57,12 +61,10 @@ const DropDown = ({
       value.label.toLowerCase().includes(searchWord.toLowerCase())
     );
     setfilterData(filterWord);
-
     filterWord.length == 0 && setIsActive(false);
   };
-  
+
   return (
-    
     <div className="relative">
       {label && (
         <label className="text-text-color text-title-content font-bold">
@@ -78,6 +80,7 @@ const DropDown = ({
         <input
           onChange={toggleFilter}
           value={selected}
+           
           className="w-full"
           {...otherProps}
         />
@@ -115,6 +118,7 @@ const DropDown = ({
             <div
               onClick={() => {
                 setSelected(item.label);
+                // getValue(item.label)
                 setIsActive(false);
               }}
               key={item.id}
@@ -124,12 +128,8 @@ const DropDown = ({
             </div>
           ))}
         </motion.div>
-      
       )}
-     <div>
-      
-      <DepartmentComponent  data={filterProvince(selected)}/>
-     </div>
+      <div></div>
     </div>
   );
 };
