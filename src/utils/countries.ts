@@ -17,12 +17,10 @@ import dataPeru   from "../data/countries_peru.json";
 
 
 
+  const newFunction  = (name = 'osacar', eda  = 23)=>{
+    
 
-
-
-
-
-
+  }
 
 
 
@@ -35,4 +33,3 @@ import dataPeru   from "../data/countries_peru.json";
     
   };
 
-  

@@ -1,39 +1,43 @@
-import "./App.css";
 import { useCountries } from "./hooks/useCountries";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import DropDown from "./components/countriesComponent/MotionComponent copy";
+import DropDownSimple from "./components/countriesComponent/DropDownSimple";
 function App() {
-  const {
-    filterDepartments,
-    filterDistrits,
-    filterProvinces,
-    getDistritUbigeo,
-  } = useCountries();
+  const { getDepartments, getProvinces,  getDistrit } =
+    useCountries();
 
-  const [selectedDepartment, setSelectedDepartment] = useState("");
-  const [selectedProvince, setSelectedProvince] = useState("");
-  const [selectedDistrit, setSelectedDistrit] = useState("");
-
-  const getSelectedDepartment = (value: string) => setSelectedDepartment(value);
-  const getSelectedProvince = (value: string) => setSelectedProvince(value);
-  const getSelectedDistrito = (value: string) => setSelectedDistrit(value);
-  const  selectedUbigeo = getDistritUbigeo(selectedDepartment, selectedProvince);
+  const [departaments, setDepartaments] = useState("");
+  const [province, setProvince] = useState("");
 
   return (
     <>
-      <DropDown
-        getSelectedValue={getSelectedDepartment}
-        data={filterDepartments()}
-      />
-      <DropDown
-        getSelectedValue={getSelectedProvince}
-        data={filterProvinces(selectedDepartment)}
-      />
-      <DropDown
-        getSelectedValue={getSelectedDistrito}
-        data={filterDistrits(selectedUbigeo)}
+      <DropDownSimple
+        //defaultInput="PUNO"
+        placeholder="Departamento"
+        data={getDepartments()}
+        textField="nomdpto"
+        itemKey="ubigeo"
+        valueInput={(value) => {
+          setDepartaments(value);
+        }}
       />
 
+      <DropDownSimple
+        //defaultInput="PUNO"
+        placeholder="Provincia"
+        data={getProvinces(departaments)}
+        textField="nomprov"
+        itemKey="codprov"
+        valueInput={(value) => {
+          setProvince(value);
+        }}
+      />
+      <DropDownSimple
+        placeholder="Distrito"
+        data={getDistrit(province)}
+        textField="nombre"
+        itemKey="coddist"
+      />
       {/* <PokemonApp/> */}
     </>
   );

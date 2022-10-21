@@ -6,7 +6,6 @@ import { motion } from "framer-motion";
 // import { container } from "~/animations/framerAnimation";
 // import {} from "../../utils/countries";
 import { useCountries } from "../../hooks/useCountries";
-import DepartmentComponent from "./DepartmentComponent";
 
 interface DropDownProps extends InputHTMLAttributes<HTMLInputElement> {
   label?: string;
