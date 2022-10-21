@@ -5,34 +5,33 @@ import DropDown from "./components/countriesComponent/MotionComponent copy";
 function App() {
   const {
     filterDepartments,
-    filterDistrit,
-    filterProvince,
-    getDistrintUbigeo,
+    filterDistrits,
+    filterProvinces,
+    getDistritUbigeo,
   } = useCountries();
 
   const [selectedDepartment, setSelectedDepartment] = useState("");
   const [selectedProvince, setSelectedProvince] = useState("");
   const [selectedDistrit, setSelectedDistrit] = useState("");
-  const [selectedUbigeo, setSelectedUbigeo] = useState("");
 
   const getSelectedDepartment = (value: string) => setSelectedDepartment(value);
   const getSelectedProvince = (value: string) => setSelectedProvince(value);
   const getSelectedDistrito = (value: string) => setSelectedDistrit(value);
+  const  selectedUbigeo = getDistritUbigeo(selectedDepartment, selectedProvince);
 
-  const dataProvince = getDistrintUbigeo(selectedDepartment, selectedProvince);
   return (
     <>
       <DropDown
-        getSelected={getSelectedDepartment}
+        getSelectedValue={getSelectedDepartment}
         data={filterDepartments()}
       />
       <DropDown
-        getSelected={getSelectedProvince}
-        data={filterProvince(selectedDepartment)}
+        getSelectedValue={getSelectedProvince}
+        data={filterProvinces(selectedDepartment)}
       />
       <DropDown
-        getSelected={getSelectedDistrito}
-        data={filterDistrit(dataProvince)}
+        getSelectedValue={getSelectedDistrito}
+        data={filterDistrits(selectedUbigeo)}
       />
 
       {/* <PokemonApp/> */}

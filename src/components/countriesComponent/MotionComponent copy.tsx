@@ -14,7 +14,7 @@ interface DropDownProps extends InputHTMLAttributes<HTMLInputElement> {
   data: { [key: string]: any }[];
   dropable?: boolean;
   // getValue: (value: string) => any;
-  getSelected:(value:string)=> any;
+  getSelectedValue: (value: string) => any;
 }
 type optionsType = string[];
 type optionsTypeData = { [key: string]: any }[];
@@ -30,8 +30,8 @@ type optionsTypeData = { [key: string]: any }[];
 const DropDown = ({
   label,
   // iconName,
-  getSelected,
-// getValue,
+  getSelectedValue,
+  // getValue,
   data,
   className,
   dropable,
@@ -41,21 +41,19 @@ const DropDown = ({
   const [selected, setSelected] = useState("");
   const [filterData, setfilterData] = useState<optionsTypeData>([]);
   const [options, setOptions] = useState<optionsTypeData>([]);
-  getSelected(selected);
-  
+  getSelectedValue(selected);
+
   useEffect(() => {
-    setOptions(data)
-  }, [data])
+    setOptions(data);
+  }, [data]);
 
   const toggleChange = () => {
     setIsActive(!isActive);
   };
-  // console.log(data);
   const toggleFilter = (e: React.ChangeEvent<HTMLInputElement>) => {
     const searchWord = e.target.value;
     searchWord.length == 0 ? setIsActive(false) : setIsActive(true);
     setSelected(searchWord);
-   
 
     const filterWord = options.filter((value) =>
       value.label.toLowerCase().includes(searchWord.toLowerCase())
@@ -80,7 +78,6 @@ const DropDown = ({
         <input
           onChange={toggleFilter}
           value={selected}
-           
           className="w-full"
           {...otherProps}
         />

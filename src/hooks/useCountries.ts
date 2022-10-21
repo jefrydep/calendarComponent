@@ -15,48 +15,47 @@ export const useCountries = () => {
     return newDepartmentsList;
   };
 
-  const filterProvince = (dept: string) => {
+  const filterProvinces = (dept: string) => {
     const newProvinces = dataPeru.filter(
       (province) => province.nomdpto === dept && province.tipo === "provincia"
     );
 
-    const namesProvince = newProvinces.map((province, index) => ({
+    const newsProvincesList = newProvinces.map((province, index) => ({
       id: index,
       label: province.nombre,
       ubigeo: province.ubigeo,
-      // ubigeo:province.ubigeo
     }));
-    return namesProvince;
+    return newsProvincesList;
   };
 
-  const filterDistrit = (ubigeo: string) => {
+  const filterDistrits = (ubigeo: string) => {
     const newDistrits = dataPeru.filter((dist) =>
       dist.ubigeo.startsWith(ubigeo)
     );
-    const getDistrits = newDistrits.map((item, index) => ({
+    const getDistrits = newDistrits.map((distrit, index) => ({
       id: index,
-      label: item.nombre,
-      // ubigeo: item.ubigeo,
+      label: distrit.nombre,
     }));
     return getDistrits;
   };
-  
-  const getDistrintUbigeo = (selectedDepartment: string,selectedProvince:string) => {
-    const ubigeo = filterProvince(selectedDepartment);
-    const selectedUbigeo = ubigeo.filter(
+
+  const getDistritUbigeo = (
+    selectedDepartment: string,
+    selectedProvince: string
+  ) => {
+    const provinces = filterProvinces(selectedDepartment);
+    const selectedUbigeo = provinces.filter(
       (item) => item.label === selectedProvince
     );
-    const idUbigeo = selectedUbigeo.map((item: any) => item.ubigeo);
+    const idUbigeo = selectedUbigeo.map((item) => item.ubigeo);
     const replaceUbigeo = idUbigeo.toString().slice(0, 4);
-    // setSelectedUbigeo(replaceUbigeo)
     return replaceUbigeo;
-
   };
 
   return {
     filterDepartments,
-    filterProvince,
-    filterDistrit,
-    getDistrintUbigeo,
+    filterProvinces,
+    filterDistrits,
+    getDistritUbigeo,
   };
 };
